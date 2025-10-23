@@ -82,7 +82,7 @@ end
 end)
 
 local SalunaVersion = "Saluna 011 (09/07/2025)"
-local qweur = loadstring(game:HttpGet('https://raw.githubusercontent.com/PotatoEiii/List/refs/heads/main/a',true))()
+local qweur = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/a/refs/heads/main/a.txt"))()
 local retur = loadstring(game:HttpGet('https://raw.githubusercontent.com/PotatoEiii/List/refs/heads/main/b',true))()
 local stofur = loadstring(game:HttpGet('https://raw.githubusercontent.com/PotatoEiii/List/refs/heads/main/c',true))()
 local logur = loadstring(game:HttpGet('https://raw.githubusercontent.com/PotatoEiii/List/refs/heads/main/d',true))()
