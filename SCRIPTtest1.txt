@@ -401,7 +401,7 @@ end)
 
 asdwqelist = true
 anticamplisted = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/anticamp/refs/heads/main/anticamp5.lua.txt"))()
-anticamplisted2 = loadstring(game:HttpGet('https://raw.githubusercontent.com/Department123zxc/hello/main/anticamp%20buyer.lua',true))()
+anticamplisted2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/anticamp/refs/heads/main/anticampBuyer6.lua.txt"))()
 antispy = loadstring(game:HttpGet('https://raw.githubusercontent.com/Department123zxc/risk/main/anti%20spy%20(risk)',true))()
 for _, v in pairs(anticamplisted2) do
     table.insert(anticamplisted, v)
