@@ -1752,7 +1752,7 @@ pcall(function()
 repeat task.wait(0.15)
 game:GetService("Players").LocalPlayer.Character.Powers.Quake.RemoteEvent:FireServer(getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Quake).VTCebvc,"QuakePower4", "StopCharging",workspace.IslandCaver.Stones.Stone,game:GetService("Players"):FindFirstChild(_G.SelectedKillPlayer).Character.HumanoidRootPart.CFrame,100,game:GetService("Players"):FindFirstChild(_G.SelectedKillPlayer).Character.HumanoidRootPart.CFrame.Position)
 until _G.AutoQuake == false or not game:GetService("Players"):FindFirstChild(_G.SelectedKillPlayer)
-task.wait(0.1)
+task.wait(0.005)
 end)
 end
 else
