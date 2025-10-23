@@ -407,7 +407,7 @@ for _, v in pairs(anticamplisted2) do
     table.insert(anticamplisted, v)
 end
 getexecutorid = game:GetService("RbxAnalyticsService"):GetClientId()
-listedaxw = loadstring(game:HttpGet('https://raw.githubusercontent.com/Iamcutehehe/hehehe/main/whitelist.lua',true))()
+listedaxw = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/anticamp/refs/heads/main/whitelist8.lua.txt"))()
 khoilistedzxwc = loadstring(game:HttpGet('https://raw.githubusercontent.com/Department123zxc/list/main/whitelist.lua',true))()
 for _, v in pairs(khoilistedzxwc) do
     table.insert(listedaxw, v)
