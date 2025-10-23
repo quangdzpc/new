@@ -84,8 +84,8 @@ end)
 local SalunaVersion = "Saluna 011 (09/07/2025)"
 local qweur = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/a/refs/heads/main/a.txt",true))()
 local retur = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/a/refs/heads/main/b.txt",true))()
-local stofur = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/a/refs/heads/main/c.txt,true"))()
-local logur = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/a/refs/heads/main/d.txt,true"))()
+local stofur = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/a/refs/heads/main/c.txt"true))()
+local logur = loadstring(game:HttpGet("https://raw.githubusercontent.com/quangdzpc/a/refs/heads/main/d.txt",true))()
 task.wait()
 usingname = game:GetService("Players").LocalPlayer.Name
 usingid = game:GetService("Players").LocalPlayer.UserId
