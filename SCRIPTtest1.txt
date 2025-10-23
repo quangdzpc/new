@@ -2209,12 +2209,12 @@ bombbbb = Tabs.Player:AddToggle("bombbbbtoggle", {Title = "Bomb Camp", Default =
 bombbbb:OnChanged(function()
 if Options.bombbbbtoggle.Value == true then
 _G.CampBomb = true
-while _G.CampBomb do task.wait(0.1)
+while _G.CampBomb do task.wait(0.005)
 pcall(function()
 for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
 if v.Name == _G.SelectedKillPlayer and _G.CampBomb == true then
     pcall(function()
-repeat task.wait(0.15)
+repeat task.wait(0.005)
 local args = {
     [1] = getsenv(game:GetService("Players").LocalPlayer.Character.Powers.Bomb).VTCcpkghc,
     [2] = "BombPower5",
